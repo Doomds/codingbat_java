@@ -8,6 +8,14 @@ public class StringTimes {
     }
 
     private static String stringTimes(String str, int n) {
-        return null;
+
+        StringBuilder newStr = new StringBuilder();
+
+        for (int i = 0; i < n; i++) {
+            newStr.append(str);
+        }
+        return newStr.toString();
+
+        // Fonctionne aussi avec return str.repeat(n); mais n'est pas accepté par CodingBat.
     }
 }
