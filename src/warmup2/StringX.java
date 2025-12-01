@@ -11,10 +11,8 @@ public class StringX {
 
         if (str.length() < 2) return str;
 
-        String newStr = str.charAt(0)
+        return str.charAt(0)
                 + str.substring(1, str.length()-1).replace("x", "")
                 + str.charAt(str.length()-1);
-
-        return newStr;
     }
 }
