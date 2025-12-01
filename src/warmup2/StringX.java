@@ -8,7 +8,6 @@ public class StringX {
     }
 
     public static String stringX(String str) {
-
         if (str.length() < 2) return str;
 
         return str.charAt(0)
