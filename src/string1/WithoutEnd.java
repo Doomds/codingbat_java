@@ -7,7 +7,7 @@ public class WithoutEnd {
         System.out.println(withoutEnd("coding")); // "odin"
     }
 
-    public static String withoutEnd(String end) {
-        return end.substring(1,end.length()-1);
+    public static String withoutEnd(String str) {
+        return str.substring(1, str.length()-1);
     }
 }
